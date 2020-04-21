@@ -1,0 +1,44 @@
+p{
+  font-family:Arial;
+}
+
+h1{
+  color:maroon;
+}
+
+.title{
+  color:teal; /*adding this class the h1 colour previously added gets overridden*/
+}
+
+.uppercase{
+  text-transform:uppercase;
+}
+
+.publish-time{
+  color:gray;
+}
+
+.cursive{
+  font-family: cursive;
+}
+
+.capitalize{
+  text-transform: capitalize;
+}
+
+/*here we chain two selectors*/
+h2.destination{
+font-family:cursive;
+}
+
+.description h5{
+  color:teal;
+}
+
+h5{
+  color:rebeccapurple !important; /* adding !important will override all other selectors*/
+}
+
+h5,p{
+  font-family: Georgia;
+}
