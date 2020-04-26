@@ -1,3 +1,27 @@
-h1{
+img{
+  font-size: 150px;
+}
+.description{
   font-size: 40px;
+}
+
+#cook-time{
+  font-weight: bold;
+}
+
+.ingredients{
+list-style: square;
+}
+.time{
+  color:gray;
+}
+
+.external-link{
+  color:SeaGreen;
+}
+
+/* We can target different elements by separating selectors with commas */
+h1, h2, p, li{
+  font-family:Helvetica;
+
 }
